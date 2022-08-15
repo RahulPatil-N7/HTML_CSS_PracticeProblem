@@ -1,0 +1,82 @@
+<!doctype html>
+<title>Example</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+   header{
+                border-style: solid;
+                text-shadow: 1px 1px #9b680a;
+                text-align: center;
+				font-size : 200%;
+   }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .outer-col-1 {
+    background: #D7E8D4;
+    flex: 1;
+  }
+  .outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .inner-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .inner-col {
+    flex: 4;
+  }
+  .inner-row article {
+    min-height: 60vh;
+  }
+  .inner-row aside {
+    background: beige;
+    flex: 1;
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+</style>
+<body>
+  <nav class="outer-col-1"><p><strong>Get Started!</strong></p>
+            1) IDE Installation and Intro :<br>
+            <a href="https://youtu.be/3RQXwtCiSJk">Watch Video</a><br>    
+            2) MySQL Database Intro :<br>
+            <a href="https://youtu.be/UJwh2JzN5_g">Watch Video</a><br></nav>
+  <div class="outer-col-2">
+  	<header><strong>BridgeLabz is Cool</strong></header>
+    <div class="inner-row">
+      <div class="inner-col">
+    	<article>
+                <img src="../assets/BL_logo_square_png.png" alt="BridgeLabz Image" width="25%">
+                <p>At BridgeLabz, we are a techie Community of</p>
+                <ul>
+                    <li>Technologists</li>
+                    <li>Thinkers</li>
+                    <li>Builders</li>
+                </ul>
+                <p>Working together to keep the Tech Employability of Engineeers alive and accessible, so Tech Companies worldwide can get contributors and creators for Technology Solutions. We Believe this act of human collaboration across an employability
+                    platform is essential to individual growth and our collective future.</p>
+            </article>
+  		<footer><p>To know more about us, visit <a href="https://www.bridgelabz.com/">BridgeLabz</a> to learn even more about our mission i.e <strong>Employability To All</strong></p></footer>
+      </div>
+    	<aside><div class="center">
+                <h3>About Us</h3>
+                <p>Bridgelabz is an AWS recognised incubator and is soley focused on solving tech employability. Over the last 5 years, it has worked with 500+ top tech companies and 2500+ engineers have been hired from Bridgelabz. It has labs in Mumbai
+                    and Bangalore. It has partnered with over 500 companies, including Yatra, Capgemini, Meru Cabs, LafargeHolcim, JDA, UrbanLadder, Fullerton India, and RBL bank. Bridgelabz recently won Business World Techtor Award 2020 and secured 2nd
+                    position at Global Edtech Startup Awards 2019, India. Also, was selected by the Maharashtra state government as Top 100 Startups 2019. More than 350+ learners placed in last 6 months despite covid downturn while most organizations
+                    were not hiring or were laying off!</p>
+            </div></aside>
+    </div>
+  </div>
+</body>
